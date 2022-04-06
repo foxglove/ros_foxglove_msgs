@@ -9,7 +9,7 @@ if(${ROS_VERSION} EQUAL 1)
   cmake_minimum_required(VERSION 2.8.3)
 
   # Default to C++11
-    if(NOT CMAKE_CXX_STANDARD)
+  if(NOT CMAKE_CXX_STANDARD)
     set(CMAKE_CXX_STANDARD 11)
   endif()
 
